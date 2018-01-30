@@ -71,9 +71,8 @@ Labs
 6. **Functional Programming**  (06-functional)
     - [6.1 - Functional](06-functional/6.1-functional.md)
 
-7. **GraphX** (07-caseclasses)
-    - [7.1  - Influencers (Twitter)](07-caseclasses/7.1-influencer.md)
-    - [7.2  - Shortest path (in LinkedIn)](07-caseclasses/7.2-shortest-path.md)
+7. **Case Classes** (07-caseclasses)
+    - [7.1 - Case Classses](06-caseclasses/7.1-functional.md)
 
 8. **Traits** (08-traits)
     - [8.1 - Traits](08-traits/8.1-traits.md)
