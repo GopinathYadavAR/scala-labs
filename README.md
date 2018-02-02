@@ -47,8 +47,6 @@ The VMs already have data loaded.  This for your own reference.
 ```
 
 
-14-annotations
-
 
 Labs
 ----
@@ -57,7 +55,7 @@ Labs
     - [1.2 - Intellij Install](01-install/intellij.md)
 
 2. **Scala REPL**  (02-repl)
-    - [2.1 - Trying the REPL](02-repl/2.1-repl.md)
+    - [2.1 - Trying the REPL](02-repl/README.md)
 
 3. **SBT**  (03-sbt)
     - [3.1 - SBT](03-sbt/3.1-sbt.md)
@@ -94,6 +92,3 @@ Labs
 
 14. **Annotations** (14-annotations)
     - [14.1 - Annotations](14-gui/14.1-annotations.md)
-
-
-
