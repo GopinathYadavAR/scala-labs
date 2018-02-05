@@ -58,7 +58,7 @@ Labs
     - [2.1 - Trying the REPL](02-repl/README.md)
 
 3. **SBT**  (03-sbt)
-    - [3.1 - SBT](03-sbt/3.1-sbt.md)
+    - [3.1 - SBT](03-sbt/README.md)
 
 4.  **Types** (04-types)
     - [4.1 - Types](04-types/4.1-types.md)
