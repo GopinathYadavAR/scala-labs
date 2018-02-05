@@ -61,34 +61,40 @@ Labs
     - [3.1 - SBT](03-sbt/README.md)
 
 4.  **Types** (04-types)
-    - [4.1 - Types](04-types/4.1-types.md)
+    - [4.1 - Types](04-types/README.md)
 
 5. **Classes** (05-classes)
-    - [5.1 -Classes ](05-classes/5.1-submit.md)
+    - [5.1 -Classes ](05-classes/README.md)
 
 6. **Functional Programming**  (06-functional)
-    - [6.1 - Functional](06-functional/6.1-functional.md)
+    - [6.1 - Functional](06-functional/README.md)
 
 7. **Case Classes** (07-caseclasses)
-    - [7.1 - Case Classses](06-caseclasses/7.1-functional.md)
+    - [7.1 - Case Classses](06-caseclasses/README.md)
 
 8. **Traits** (08-traits)
-    - [8.1 - Traits](08-traits/8.1-traits.md)
+    - [8.1 - Traits](08-traits/README.md)
 
 9. **Collections** (09-collections)
-    - [9.1 - Collections](09-collections/9.1-collections.md)
+    - [9.1 - Collections](09-collections/README.md)
 
 10. **Mutables** (10-mutables)
-    - [10.1 - Mutables](10-mutables/10.1-mutables.md)
+    - [10.1 - Mutables](10-mutables/README.md)
 
 11. **Tests** (11-tests)
-    - [11.1 - Tests](11-tests/11.1-tests.md)
+    - [11.1 - Tests](11-tests/README.md)
 
 12. **Concurrency** (12-concurrency)
-    - [12.1 - Concurrency](12-concurrency/12.1-concurrency.md)
+    - [12.1 - Concurrency](12-concurrency/README.md)
 
 13. **GUIs** (12-gui)
-    - [13.1 - GUI](13-gui/13.1-gui.md)
+    - [13.1 - GUI](13-gui/README.md)
 
 14. **Annotations** (14-annotations)
-    - [14.1 - Annotations](14-gui/14.1-annotations.md)
+    - [14.1 - Annotations](14-gui/README.md)
+
+15. **Utils** (15-utils)
+    - [15.1 - utils](14-utils/README.md)
+
+16. **File IO** (16-fileio)
+    - [16.1 - fileios](16-fileio/README.md)

@@ -142,7 +142,7 @@ Let's try this test driver. On your SBT terminal type
 You will see following output from our test driver class.
 ```console
     > run
-    [info] compiling 1 scala source to /users/sujee/elephantscale/spark-labs/01-scala/vending-machine/target/scala-2.11/classes...
+    [info] compiling 1 scala source to /users/tim/elephantscale/spark-labs/01-scala/vending-machine/target/scala-2.11/classes...
     [info] Running x.QuickTest
     Stocking 'coke', price = $1, qty = 10
         coke stock : 0
