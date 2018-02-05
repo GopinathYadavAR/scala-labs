@@ -22,7 +22,7 @@ var d: Double = 5.0	// Explicit type declaration of Double
 
 // Error-type mismatch. 1.1 is a double, not assignable to Int
 val n: Int = 1.1
-
+```
 
 ## Now try this:
 
@@ -36,7 +36,7 @@ res14: scala.math.BigInt = 3
 scala> 1 to 10  // We'll work with collections and ranges soon
 res15: scala.collection.immutable.Range.Inclusive = Range(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-``
+```
 
 
 ## Now this:
@@ -52,6 +52,4 @@ greeting = “good bye world”  // ok
 val r = 1 to 10
 // what is r ?
 r(0)
-
-
 ```
