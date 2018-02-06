@@ -29,3 +29,5 @@ are willing to pay for a given investment opportunity. Guidelines
 1. For Bitcoin, offer 1/10 of the value of the current exchange rate
 1. For a MutualFund, offer 90% of the value for the low risk yieldType and 80% of the value
 for high-risk yieldType.
+1. Include investment formula for a Portfolio.
+1. Add a unit test.
