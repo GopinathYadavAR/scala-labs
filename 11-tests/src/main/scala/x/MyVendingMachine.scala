@@ -39,20 +39,20 @@ class MyVendingMachine extends VendingMachine {
       val newStock = store(item).add(price, qty)
 
       // TODO-1 : put new stock in 'store'
-      //store.put(item, ???)
+      store.put(item, newStock)
       newStock.getQty
     } else {
       store.put(item, new Stock(item, price, qty))
       // TODO-2 : return qty
-      return 0 // fix this
+      return qty // fix this
     }
   }
 
   override def checkPrice(item: String): Int = {
     if (store.contains(item)) {
       // TODO-3 return price
-      return 0  // replace with following line
-      // store(item).???
+
+      store(item).getPrice()
     } else {
       throw new Exception("checking price on item not in stock: " + item)
     }
@@ -61,8 +61,7 @@ class MyVendingMachine extends VendingMachine {
   override def checkStock(item: String) : Int = {
     if (store.contains(item)) {
      // TODO-4 : return stock
-      0   // replace with  below
-      // store(item).???
+      store(item).getQty
     } else {
       0  // error and zero are OK
     }
@@ -75,6 +74,7 @@ class MyVendingMachine extends VendingMachine {
   override def deposit(amount: Int): Int = {
     // TODO-5  : update myStash + amount
     // myStash += ???
+    myStash += amount
     myStash
   }
 
@@ -87,14 +87,15 @@ class MyVendingMachine extends VendingMachine {
 
       // TODO-6 : handle not enough money
       if (myStash  < myItem.getPrice())
-        return Success // this is wrong return type
+        return NotEnoughMoney // this is wrong return type
 
       // good, go ahead and buy
       store.put(item, myItem.buy)
+      myStash -= myItem.getPrice()
       return Success
     } else {
       // TODO-7  : return ItemNotInStock
-      Success
+      ItemNotInStock
     }
   }
 
