@@ -1,6 +1,6 @@
 # Case Classes Lab
 
-Consider on the definition of investments with case classes below
+### STEP 1: Consider on the definition of investments with case classes below
 
     abstract class Investment
     case class RealEstate(name: String, value: Double, monthly: Double)
@@ -8,7 +8,7 @@ Consider on the definition of investments with case classes below
     case class MutualFund(name: String, amount: Double, yieldType: String)
     case class Portfolio(name: String, investment: Investment)
 
-Start with the getOffer implementation that does not do anything
+### STEP 2: Start with the getOffer implementation that does not do anything
 
     def getOffer(investment: Investment): Double = investment match {
       case RealEstate(name, value, monthly) =>
@@ -22,7 +22,7 @@ Start with the getOffer implementation that does not do anything
         1
     }
 
-Now, write your own definition of getOffer that would produce an offer, in dollars, you
+### STEP 3: Now, write your own definition of getOffer that would produce an offer, in dollars, you
 are willing to pay for a given investment opportunity. Guidelines
 
 1. For real estate, offer its value plus the three years of rental income
