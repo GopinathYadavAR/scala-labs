@@ -112,7 +112,7 @@ Please open 2 terminals - 1 for editing files and other for running commands.
 Make sure you are in the project top level directory.
 
 ```
-    $   cd   ~/spark-labs/01-scala/vending-machine
+    $   cd   ~/scala-labs/05-classes
 
     # see the project structure
     $   find .  | grep -v target
@@ -122,7 +122,7 @@ Make sure you are in the project top level directory.
 ### SBT
 Using one terminal, launch SBT from project root directory.
 ```
-    $   cd   ~/spark-labs/01-scala/vending-machine
+    $   cd   ~/scala-labs/05-classes
 
     $   sbt
 
