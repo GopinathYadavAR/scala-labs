@@ -22,8 +22,7 @@
         1
     }
 
-### STEP 3: Now, write your own definition of getOffer that would produce an offer, in dollars, you
-are willing to pay for a given investment opportunity. Guidelines
+### STEP 3: Now, write your own definition of getOffer that would produce an offer, in dollars, which you are willing to pay for a given investment opportunity. Guidelines
 
 1. For real estate, offer its value plus the three years of rental income
 1. For Bitcoin, offer 1/10 of the value of the current exchange rate

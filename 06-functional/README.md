@@ -2,7 +2,7 @@
 
 [<< back to main index](../README.md) 
 
-Lab : Higher Order Functio
+Lab: Higher Order Functions
 ===================================
 
 ### Overview
