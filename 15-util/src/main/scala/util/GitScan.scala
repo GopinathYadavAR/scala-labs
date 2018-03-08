@@ -1,4 +1,4 @@
-package example
+package util
 
 object GitScan extends AdminTask with App {
   println(status)
