@@ -37,13 +37,13 @@ Data
 ----
 The VMs already have data loaded.  This for your own reference.
 
-[Link to Full Dataset](https://s3.amazonaws.com/elephantscale-public/data/datasets.zip)
+[Link to Full Dataset](https://s3.amazonaws.com/elephantscale-public/data/data.zip)
 (Note: Large download, ~200 Meg)
 
 - Click the above link to download or
 - use `wget` from command line
 ```
-    $    wget   "https://s3.amazonaws.com/elephantscale-public/data/datasets.zip"
+    $    wget   "https://s3.amazonaws.com/elephantscale-public/data/data.zip"
 ```
 
 
