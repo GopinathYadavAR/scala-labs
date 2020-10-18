@@ -1,196 +1,40 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
-[<< back to main index](../../README.md) 
+# Lab 5: Classes
 
-Lab 1.5 : Implement A Vending Machine Class In Scala
-===================================
+In this section, we will learn how to define classes in Scala.
 
-### Overview
-Implement a full fledged Scala class
+We will define simple shapes.
 
-### Depends On 
-None
+## Step 1 - Start with Triangle
 
-### Run time
-20 mins
+Take a look at the `Triangle` class.
 
-### Solution
-/es-training/spark/spark-solutions/01-scala/vending-machine-solution
+Run the `Main` class, where we initialize a `Triangle` and print out.
 
+## Step 2 - Refactor
 
-## Recommended Setup (In order of preference)
-* If you are using an IDE (like IntelliJ)  please open the project as an SBT project.
-* If you are using a UI editor like 'Sublime'  open the 'project root directory'  in editor (so you can navigate to all files easily).
-* If using command line, please open 2 terminals - 1 for editing files and other for running commands.
+Move the classes into a package `shape`
 
-## Step 0 : Instructor
-* Get the lab started on your screen. 
-* Show how to complete TODO-1 & 2 (upto STEP 5) on screen.
-* Then let the class complete rest of the TODO items.
+## Step 3 - Auxilary Constructor
 
+Add a new auxilary constructor to `Triangle`.
 
-## Step 1 : Project Directory
-Project directory is : `~/spark-labs/01-scala/vending-machine`
-
-Here is the project hierarchy:
-
-<img src="../assets/images/1.5b.png" style="border: 5px solid grey ; max-width:100%;" />
-
-## Step 2 : Open Project in IntelliJ
-* File -> Open
-* Navigate to : `~/spark-labs/01-scala/vending-machine` directory
-* Select `build.sbt` file
-* Make sure `Use Auto Import` is checked
-
-**See screen shots below**
-
-<img src="../assets/images/1.5c.png" style="border: 5px solid grey ; max-width:100%;" />
-<img src="../assets/images/1.5d.png" style="border: 5px solid grey ; max-width:100%;" />
-<img src="../assets/images/1.5e.png" style="border: 5px solid grey ; max-width:100%;" />
-
-Final project should look like this:
-
-<img src="../assets/images/1.5f.png" style="border: 5px solid grey ; max-width:100%;" />
-
-
-## Step 3 : Inspect 'VendingMachine' trait
-* Inspect  the file `src/main/scala/x/VendingMachine.scala`.  
-* This file defines the `trait` for a vending machine.   
-* Notice how `ReturnCode` is defined.
-
-## Step 4 : Vending Machine Test Driver
-* Inspect  the file `src/main/scala/x/QuickTest.scala`  
-* Run this file by 'Right Click -> Run'
-* Your output may look like this
-
-```console
-    Stocking 'coke', price = $1, qty = 10
-        coke stock : 0
-    Stocking 'm&m', price = $2, qty = 20
-        m&m stock : 0
-    Stocking 'oreo', price = $3, qty = 20
-        oreo stock : 0
-```
-
-As you can see, the implementation needs work.
-
-## Step 5 : Vending Machine Implementation
-* Inspect  the file `src/main/scala/x/MyVendingMachine.scala`
-* We are going to fix `TODO` items in this file
-* Fix TODOs one function at a time
-* And run the QuickTest driver to verify that the code is working properly
-
-Here is how we fix TODO-1 and TODO-2
+This one takes only one INT argument (all sides are of equal length).  Here is the code:
 
 ```scala
-    override def addStockItem(item: String, price: Int, qty: Int): Int = {
-        if (store.contains(item)) {
-          // adding an item with a new price automatically re-prices existing stock
-          val newStock = store(item).add(price, qty)
+class Triangle (a: Int, b: Int, c:Int ) {
 
-          // TODO-1 : put new stock in 'store'
-          store.put(item, newStock)
-          newStock.getQty
-        } else {
-           store.put(item, new Stock(item, price, qty))
-           // TODO-2 : return qty
-           qty // fix this
+    def this (size: Int) = {
+        this (size, size, size)
     }
+}
 ```
 
-## Lab Ends
+## Step 4 - Create a new class `Square`
 
-## Optional Reference for Using SBT tool
-Here is how you can build the project with SBT.
+This will only take one parameter: `size`
 
-### 2 Terminals
-Please open 2 terminals - 1 for editing files and other for running commands.
+Create appropriate `toString` method
 
-<img src="../assets/images/1.5a.png" style="border: 5px solid grey ; max-width:100%;" />
-
-### Project root directory
-Make sure you are in the project top level directory.
-
-```
-    $   cd   ~/scala-labs/05-classes
-
-    # see the project structure
-    $   find .  | grep -v target
-```
-
-
-### SBT
-Using one terminal, launch SBT from project root directory.
-```
-    $   cd   ~/scala-labs/05-classes
-
-    $   sbt
-
-```
-
-### Running the program in SBT
-SBT Commands
-* compile : will compile the program
-* run : compile and run the program
-
-Let's try this test driver. On your SBT terminal type
-```
-    sbt>
-          run
-```
-
-You will see following output from our test driver class.
-```console
-    > run
-    [info] compiling 1 scala source to /users/tim/elephantscale/spark-labs/01-scala/vending-machine/target/scala-2.11/classes...
-    [info] Running x.QuickTest
-    Stocking 'coke', price = $1, qty = 10
-        coke stock : 0
-    Stocking 'm&m', price = $2, qty = 20
-        m&m stock : 0
-    Stocking 'oreo', price = $3, qty = 20
-        oreo stock : 0
-    stock qty for coke 0
-    price for oreo 0
-    depositing $2
-    trying to buy oreo @ $3 : Success
-    trying to buy coke @ $1 : Success
-    balance : 0
-    [success] Total time: 2 s, completed May 16, 2016 4:00:55 PM
-
-```
-
-### Once you edit a file and save it, you can run from SBT as follows
-```
-    sbt> 
-            compile
-            run
-```
-
-
-## SBT Tips
-
-### SBT Shell
-You can issue sbt commands from shell as follows
-```
-    $   sbt  clean compile run
-```
-
-For iterative development, sbt shell is much faster !
-
-```
-    $   sbt
-    > clean
-    > compile run
-    > run
-```
-
-### Specifying A Main Class To Run
-```
-    $  sbt  "run-main x.Foo"
-```
-
-```
-    # in sbt shell
-    >   runMain  x.foo
-```
+Also create a function `getSize` that returns the size attribute
