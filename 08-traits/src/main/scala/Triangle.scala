@@ -1,9 +1,7 @@
-class Triangle extends  Shape {
+class Triangle (a: Int, b: Int, c:Int ) {
 
-  // sides
-  var a: Int;
-  var b: Int;
-  var c: Int;
-
-  override def sides(): Int = 3
+  override def toString: String = {
+    return "[Triangle (a=" + a + ", b=" + b + ", c=" + c + ")]"
+  }
 }
+
