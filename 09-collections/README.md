@@ -1,9 +1,5 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
-[<< back to main index](../../README.md) 
-
----
-
 # Collections
 
 Login to your node, instructor will provide details.

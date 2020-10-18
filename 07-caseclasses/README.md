@@ -1,9 +1,5 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
-[<< back to main index](../../README.md) 
-
----
-
 # Case Classes Lab
 
 ### STEP 1: Consider on the definition of investments with case classes below

@@ -1,9 +1,5 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
-[<< back to main index](../README.md)
-
----
-
 # Lab 3 : SBT Intro
 
 ### Overview

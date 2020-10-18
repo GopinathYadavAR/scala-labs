@@ -1,9 +1,6 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
-[<< back to main index](../README.md) 
-
-Lab 16-Fileio : Simple File Operations
-===================================
+# Lab 16-Fileio : Simple File Operations
 
 ### Overview
 Write a Scala script, compile and run it
