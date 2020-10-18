@@ -1,6 +1,7 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
 [<< back to main index](../README.md)
+
 ---
 
 # Lab 2.1 : Scala REPL
@@ -39,7 +40,7 @@ Make sure `scala`  command is in your PATH.
 You will see Scala shell as follows.
 
 ```console
-Welcome to Scala 2.12.4 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_161).
+Welcome to Scala 2.13.4 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_161).
 Type in expressions for evaluation. Or try :help.
 
 scala>

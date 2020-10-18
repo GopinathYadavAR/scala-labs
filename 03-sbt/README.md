@@ -1,6 +1,7 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
 [<< back to main index](../README.md)
+
 ---
 
 # Lab 3 : SBT Intro
@@ -29,7 +30,7 @@ name := "HelloApp"
 
 version := "1.0"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.13.3"
 
 ```
 
@@ -134,6 +135,7 @@ In the SBT shell window try these
 ```scala
     >  compile
     >  run
+    >  runMain example.Hello
 ```
 
 ## Step 11 : Continuous Mode
@@ -173,15 +175,15 @@ or in SBT shell
 It will create a jar file in 'target/scala-x-y-z' directory.
 
 ```console
-target/scala-2.12/helloapp_2.12-1.0.jar   [size 3k]
+target/scala-2.13/helloapp_2.13-1.0.jar   [size 3k]
 ```
 
 We can run this jar file using `scala`
 
 ```bash
-    $  scala  target/scala-2.12/helloapp_2.12-1.0.jar
+    $  scala  target/scala-2.13/helloapp_2.13-1.0.jar
 
-    $  scala  target/scala-2.12/helloapp_2.12-1.0.jar  example.Hello
+    $  scala  target/scala-2.13/helloapp_2.13-1.0.jar  example.Hello
 
 ```
 

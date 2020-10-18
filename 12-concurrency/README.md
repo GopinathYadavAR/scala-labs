@@ -1,3 +1,9 @@
+<link rel='stylesheet' href='../assets/css/main.css'/>
+
+[<< back to main index](../README.md)
+
+---
+
 # Concurrency
 
 This is uses Akka Actor model.  We will demonstrate how the actor model works.

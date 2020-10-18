@@ -2,8 +2,9 @@
 
 [<< back to main index](../README.md) 
 
-Lab: Higher Order Functions
-===================================
+---
+
+# Lab: Higher Order Functions
 
 ### Overview
 Write and use higher order functions.  

@@ -2,8 +2,9 @@
 
 [<< back to main index](../../README.md) 
 
-Lab 11.1 : Write Unit Tests Using SPECS2 Framework
-===================================
+---
+
+# Lab 11.1 : Write Unit Tests Using SPECS2 Framework
 
 ### Overview
 Write Unit Tests

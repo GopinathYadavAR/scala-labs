@@ -1,3 +1,9 @@
+<link rel='stylesheet' href='../assets/css/main.css'/>
+
+[<< back to main index](../README.md)
+
+---
+
 # Types
 
 Here we are looking at the types
