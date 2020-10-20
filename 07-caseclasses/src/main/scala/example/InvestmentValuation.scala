@@ -9,10 +9,15 @@ object InvestmentValuation   {
 
     val offerBitCoin = getOffer(Crypto("Bitcoin", 1000.0))
     println("Offering " + offerBitCoin + " for BitCoin")
+
     val offerRealEstate = getOffer(RealEstate("House", 1000000.0, 2000.0))
     println("Offering " + offerRealEstate + " for House")
-    val offerMutualFund = getOffer(MutualFund("SP500", 2000.0, "lowrisk"))
-    println("Offering " + offerMutualFund + " for Mutual Fund")
+
+    val offerMutualFund1 = getOffer(MutualFund("SP500", 2000.0, "lowrisk"))
+    println("Offering " + offerMutualFund1 + " for Mutual Fund")
+
+    val offerMutualFund2 = getOffer(MutualFund("SP500", 2000.0, "highrisk"))
+    println("Offering " + offerMutualFund2 + " for Mutual Fund")
 
   }
 
@@ -23,6 +28,8 @@ object InvestmentValuation   {
     case Crypto(name, amount) =>
       println("Be careful with " + amount + " of " + name)
       amount * 5000
+    // TODO-1 : Add mutualFund case and return amount * 0.9
+    // TODO-2 : for 'highrisk' mutual fund, return amount * 0.5
     case _ =>
       println("I will consider any investment")
       1
