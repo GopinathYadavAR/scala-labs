@@ -4,6 +4,10 @@
 
 Welcome to Scala labs bundle.
 
+## Instructor
+
+Do `./assemble-labs.sh` to generate lab bundle
+
 ## Data
 
 [Link to Full Dataset](https://s3.amazonaws.com/elephantscale-public/data/data.zip)
@@ -27,11 +31,11 @@ $   wget   "https://s3.amazonaws.com/elephantscale-public/data/data.zip"
 3. **SBT**  (03-sbt)
     - [3.1 - SBT](03-sbt/README.md)
 
-4.  **Types** (04-types)
+4. **Types** (04-types)
     - [4.1 - Types](04-types/README.md)
 
 5. **Classes** (05-classes)
-    - [5.1 -Classes ](05-classes/README.md)
+    - [5.1 -Classes](05-classes/README.md)
 
 6. **Functional Programming**  (06-functional)
     - [6.1 - Functional](06-functional/README.md)
@@ -40,7 +44,7 @@ $   wget   "https://s3.amazonaws.com/elephantscale-public/data/data.zip"
     - [7.1 - Case Classses](07-caseclasses/README.md)
 
 8. **Traits** (08-traits)
-    - [8.1 - Traits (N/A)](08-traits/README.md)
+    - [8.1 - Traits](08-traits/README.md)
 
 9. **Collections** (09-collections)
     - [9.1 - Collections](09-collections/README.md)

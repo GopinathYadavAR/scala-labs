@@ -5,6 +5,7 @@
 We will continue building on the shapes concept.
 
 Take a look at these 3 files:
+
 - Triangle.scala
 - Square.scala
 - Shape.scala
@@ -19,9 +20,8 @@ Modify `Triangle` as follows
 class Triangle(a: Int, b: Int, c:Int ) extends Shape {
     ...
 
-    // and implement the sides function
-    // this is from Shape
-    override def sides(): Int = 3
+    // return 0 as default value
+    override def area(): Int = 0
 }
 ```
 
@@ -29,10 +29,11 @@ class Triangle(a: Int, b: Int, c:Int ) extends Shape {
 
 In Main, create a new `Triangle`.
 
-And print out `sides()`
+And print out `area()`
 
 ## Step 3 - Square
 
 Implement the trait in `Square`  class.
 
-Print out the sides for square
+Print out the `area` for square.
+

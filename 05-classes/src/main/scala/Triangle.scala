@@ -7,5 +7,12 @@ class Triangle (a: Int, b: Int, c:Int ) {
     // e.g here is a return string : "[Triangle (a=1, b=2, c=3)]"
   }
 
+  def sides : Int = {
+    return 0
+  }
+
+  // shorter sides function
+  //  def sides : Int = 0
+
 }
 
