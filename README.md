@@ -8,17 +8,6 @@ Welcome to Scala labs bundle.
 
 Do `./assemble-labs.sh` to generate lab bundle
 
-## Data
-
-[Link to Full Dataset](https://s3.amazonaws.com/elephantscale-public/data/data.zip)
-(Note: Large download, ~200 Meg)
-
-- Click the above link to download or
-- use `wget` from command line
-
-```bash
-$   wget   "https://s3.amazonaws.com/elephantscale-public/data/data.zip"
-```
 
 ## Labs
 
@@ -69,3 +58,7 @@ $   wget   "https://s3.amazonaws.com/elephantscale-public/data/data.zip"
 
 16. **File IO** (16-fileio)
     - [16.1 - fileios](16-fileio/README.md)
+
+### Projects
+
+* [Vending Machine](projects/vending-machine/README.md)
