@@ -1,5 +1,0 @@
-vending machine
-    fix images
-
-    comment out sbt plugin
-

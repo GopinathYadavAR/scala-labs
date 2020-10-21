@@ -62,3 +62,4 @@ Do `./assemble-labs.sh` to generate lab bundle
 ### Projects
 
 * [Vending Machine](projects/vending-machine/README.md)
+* [Clickstream](projects/clickstream/README.md)
