@@ -1,6 +1,6 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
-# Lab 11.1 : Write Unit Tests `scalatest` Framework
+# Lab 11.1: Write Unit Tests `scalatest` Framework
 
 ### Overview
 Write Unit Tests
