@@ -16,12 +16,12 @@ None
 * If you are using a UI editor like 'Sublime'  open the 'project root directory'  in editor (so you can navigate to all files easily).
 * If using command line, please open 2 terminals - 1 for editing files and other for running commands.
 
-## Step 0 : Instructor
+## Step 0: Instructor
 * Get the lab started on your screen. 
 * Show how to complete TODO-1 (upto STEP 5) on screen.
 * Then let the class complete rest of the TODO items.
 
-## Step 1 : Project Directory
+## Step 1: Project Directory
 Project directory is : `~/spark-labs/01-scala/vending-machine`
 
 Here is the project hierarchy:
@@ -29,9 +29,9 @@ Here is the project hierarchy:
 <img src="../assets/images/1.5b.png" style="border: 5px solid grey ; max-width:100%;" />
 
 
-## Step 2 : Open Project in IntelliJ
+## Step 2: Open Project in IntelliJ
 * File -> Open
-* Navigate to : `~/spark-labs/01-scala/vending-machine` directory
+* Navigate to: `~/spark-labs/01-scala/vending-machine` directory
 * Select `build.sbt` file
 * Make sure `Use Auto Import` is checked
 
@@ -45,7 +45,7 @@ Final project should look like this:
 
 <img src="../assets/images/1.5f.png" style="border: 5px solid grey ; max-width:100%;" />
 
-## Step 3 : VendingMachine Test
+## Step 3: VendingMachine Test
 * Inspect  the file `src/test/scala/x/VendingMachineTest.scala`.  
 * This file has bunch of skeleton unit tests defined already.
 * Run this file by 'Right Click -> Run'
@@ -53,7 +53,7 @@ Final project should look like this:
 
 The tests will probably fail !  We need to make sure our implementation is correct.
 
-## Step 4 : Fix test cases
+## Step 4: Fix test cases
 Here is how we fix TODO-1.
 
 ```scala
