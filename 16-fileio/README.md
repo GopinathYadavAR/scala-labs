@@ -20,7 +20,7 @@ You can always use `vi`  or `nano` :-)
 
 
 #### VI Tip:
-If you copying code from another program into VI, you may notice that it is 'indenting' pasted code in correctly.  One way to deal with this is
+If you are copying code from another program into VI, you may notice that it is 'indenting' pasted code in correctly.  One way to deal with this is
 
 ```
 # within VI
