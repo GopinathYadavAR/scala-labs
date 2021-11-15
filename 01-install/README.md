@@ -14,9 +14,21 @@ None
 
 20 mins
 
-## STEP 0: To Instructor
+## STEP 0: To the instructor
 
-Please go through this lab on 'screen' first.
+Please go through this lab on screen first.
+
+## STEP 1: Using SDKMAN
+
+```shell
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk version
+sdk install sbt
+sdk install scala
+```
+
+## Remaining steps are optional
 
 ## STEP-1 : Install JDK 8 or 11
 
