@@ -4,7 +4,7 @@
 
 ### Overview
 
-We will be running Scala in a single node mode.
+We will setup Scala development environment
 
 ### Depends On
 
@@ -18,7 +18,7 @@ None
 
 Please go through this lab on screen first.
 
-## Step 1: Install JDK 8 or 11
+## Step 1: Install JDK
 
 JDK 11 is preferred.  But if you have JDK 8, that is OK too.
 
@@ -109,7 +109,7 @@ Install Scala support as follows:
 - during the first launch; you will be prompted to install Scala support
 - Go to `Settings --> Plugins`  and install Scala support
 
-<img src="../assets/images/1a-intellij-scala-support.png" style="border: 5px solid grey ; width:80%;" />
+<img src="../assets/images/intellij-scala-support.png" style="border: 5px solid grey ; width:80%;" />
 
 ## STEP 6:  Import this Project as an SBT Project
 

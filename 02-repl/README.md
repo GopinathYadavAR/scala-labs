@@ -1,52 +1,55 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
-[<< back to main index](../README.md)
-
----
-
 # Lab 2.1 : Scala REPL
 
-### Overview
+## Overview
+
 Play with Scala REPL environment
 
-### Depends On
+## Depends On
+
 None
 
-### Run time
+## Run time
+
 10 mins
 
-## Instructions To Instructor
+## For Instructor
+
 **Please go through this lab on 'screen' first.**
 
 ## Notes
+
 The REPL environment can be run either
 1. Command line
 2. Within a IDE
 
 We will try both.
 
-## Step 1 : Login to your VM
-If you are using a remote VM
+## Step 1 : Start a terminal  Window
 
-## Step 2 : Start a terminal  Window
-Make sure `scala`  command is in your PATH.
+Initialize SDKMan
 
-## Step 3 : Start Scala REPL
 ```bash
-    $  scala
+$   source "$HOME/.sdkman/bin/sdkman-init.sh"
+```
 
+## Step 2 : Start Scala REPL
+
+```bash
+$  scala
 ```
 
 You will see Scala shell as follows.
 
 ```console
-Welcome to Scala 2.13.4 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_161).
+Welcome to Scala 2.13.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_161).
 Type in expressions for evaluation. Or try :help.
 
 scala>
 ```
 
-## Step 4 : Try the following REPL commands
+## Step 3 : Try the following REPL commands
 
 ```scala
 
@@ -59,8 +62,9 @@ scala>
 
 ```
 
-## Step 5 : Tab completion
-Experiment with TAB completion.   
+## Step 4 : Tab completion
+
+Experiment with TAB completion.
 
 Hint : Hit the TAB key after the dot (.)
 
@@ -76,7 +80,8 @@ scala>
     res3: String = HELLO WORLD
 ```
 
-## Step 6 : Experiment with REPL
+## Step 5 : Experiment with REPL
+
 Try a few commands
 
 ```scala
@@ -87,25 +92,35 @@ scala>
 ```
 
 ## REPL in UI
+
 We will show how to run REPL environment in Intellij IDE.
 
-## Step 7 : Start IntelliJ IDE
+## Step 6 : Start IntelliJ IDE
 
 ### Instructor
+
 Please make sure all students have IntelliJ up and running
 
-## Step 8 : Create a Project
+## Step 7 : Create a Project
+
 Make the following choices:
-- File --> New Project
-- Choose Scala project and select SBT
-- Project definitions
+
+* File --> New Project
+* Choose Scala project and select SBT
+* Project definitions
     - Name your project 'hello'
     - Set the project directory
     - accept SBT and Scala versions
 
-## Step 9: Run SBT Console
+## Step 8: Creata a Scala REPL Runtime
 
 - Click on 'Run --> Edit Configurations'
-- Create a new Scala runtime
+- Create a new Scala REPL runtime
 
-## Step 10: Try the same REPL exercises
+<img src="../assets/images/intellij-scala-repl.png" style="border: 5px solid grey ; width:80%;" />
+
+## Step 9: Run the REPL env
+
+<img src="../assets/images/intellij-scala-repl2.png" style="border: 5px solid grey ; width:80%;" />
+
+## Step 10: Try the Same REPL Exercises
