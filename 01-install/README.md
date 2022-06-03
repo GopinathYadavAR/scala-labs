@@ -126,15 +126,38 @@ First import will take some time, as IntelliJ downloads all dependencies and boo
 
 Click on `Hello` class and select `Run`
 
+## Step 8: Verify CLI Scala
+
+Open a terminal
+
+Execute SDK initializer as follows
+
+```bash
+$   source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Go to 01-install dir
+# Adjust the path if necessary
+$   cd   ~/scala-labs/01-install
+
+$   sbt run
+# This will take a couple of minutes, for the first time we run it
+```
+
+You will see the output as below
+
+```console
+Hello Scala!
+```
+
+## Lab is Complete!  👏
+
 ---
 
-## Remaining steps are optional
+## Following Steps are Optional
 
 These are provided as reference only.  
 
-
-
-## Install Scala 
+## Install Scala
 
 Install Scala for your platform.
 
@@ -150,7 +173,9 @@ Verify the *scala version* and *java version* printed out.
 
 ```bash
 $ ~/apps/scala/bin/scala 
+```
 
+```console
 Welcome to Scala 2.13.8 (OpenJDK 64-Bit Server VM, Java 11.0.8).
 Type in expressions for evaluation. Or try :help.
 
@@ -169,7 +194,7 @@ Again it is easier to get the zip version and extract into a dir.  For example i
 Verify sbt by using `sbt --version` command on terminal
 
 ```bash
-    $   sbt --version
-    # output:
-    #  sbt script version: 1.6.2
+$   sbt --version
+# output:
+#  sbt script version: 1.6.2
 ```
