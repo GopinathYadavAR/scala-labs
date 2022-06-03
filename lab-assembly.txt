@@ -15,6 +15,7 @@
 15-util
 16-fileio
 assets
+lab-setup.md
 projects
 README.md
 solutions

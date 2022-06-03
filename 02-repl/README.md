@@ -117,10 +117,10 @@ Make the following choices:
 - Click on 'Run --> Edit Configurations'
 - Create a new Scala REPL runtime
 
-<img src="../assets/images/intellij-scala-repl.png" style="border: 5px solid grey ; width:80%;" />
+<img src="../assets/images/intellij-scala-repl.png" style="border: 5px solid grey ; max-width:80%;" />
 
 ## Step 9: Run the REPL env
 
-<img src="../assets/images/intellij-scala-repl2.png" style="border: 5px solid grey ; width:80%;" />
+<img src="../assets/images/intellij-scala-repl2.png" style="border: 5px solid grey ; max-width:80%;" />
 
 ## Step 10: Try the Same REPL Exercises
