@@ -8,18 +8,18 @@ Here we are looking at the types
 
 This will help us determine the type
 
-
 ```scala
-var x = 5  	// Variable  (Integer type)
-x = 7          // Change the value 
+val x = 10  // Constant  (Integer type)
+x=11        // error: reassignment to val
+
+var y = 5   // Variable  (Integer type)
+y = 7       // Change the value 
 // Java equivalent: int x = 5;
 // question: spot the differences between Java declaration
-//           Hint : type declaration (int)  & semicolon
+// Hint : type declaration (int)  & semicolon
 
-val y = 10	// Constant  (Integer type)
-y=11		// error: reassignment to val
-
-var d: Double = 5.0	// Explicit type declaration of Double
+// Explicit type declaration of Double
+var d: Double = 5.0  
 // Java equivalent:    double d = 5.0;
 
 // Error-type mismatch. 1.1 is a double, not assignable to Int
@@ -40,11 +40,9 @@ res15: scala.collection.immutable.Range.Inclusive = Range(1, 2, 3, 4, 5, 6, 7, 8
 
 ```
 
-
 ## Now this:
 
 ```scala
-
 val x = 10
 val y: Double = 1.3
 y = 3.1 // error
