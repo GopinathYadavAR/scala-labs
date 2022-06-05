@@ -1,3 +1,5 @@
+package x
+
 import scala.util.Random
 
 object Benchmark1 {

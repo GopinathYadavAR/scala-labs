@@ -10,75 +10,75 @@ Do `./assemble-labs.sh` to generate the lab bundle
 
 ## Labs
 
-### 0 - Getting Labs
+### Getting Labs
 
-* [0 - Lab setup](lab-setup.md)
+* [Lab setup](lab-setup.md)
 
-### 1 - Scala Setup
+### Scala Setup
 
-* [1.1 - Install](01-install/README.md)
+* [SETUP-1: Install Scala](install/README.md)
 
-### 2 - Scala REPL
+### Scala REPL
 
-* [2.1 - Trying the REPL](02-repl/README.md)
+* [REPL-1: Trying the REPL](repl/README.md)
 
-### 3 - SBT
+### SBT
 
-* [3.1 - SBT](03-sbt/README.md)
+* [SBT-1: SBT Intro](sbt/README.md)
 
-### 4 - Types
+### Types
 
-* [4.1 - Types](04-types/README.md)
+* [TYPES-1: Types](types/README.md)
 
-### 5 - Classes
+### Classes
 
-* [5.1 -Classes](05-classes/README.md)
+* [CLASS-1: Classes](classes/README.md)
 
-### 6 - Functional Programming
+### Functional Programming
 
-* [6.1 - Functional](06-functional/README.md)
+* [FUNCTIONAL-1: Functional](functional/README.md)
 
-### 7 -  Case Classes
+### Case Classes
 
-* [7.1 - Case Classses](07-caseclasses/README.md)
+* [CASE-1: Case Classses](caseclasses/README.md)
 
-### 8 - Traits
+### Traits
 
-* [8.1 - Traits](08-traits/README.md)
+* [TRAITS-1: Traits](traits/README.md)
 
-### 9 -  Collections
+### Collections
 
-* [9.1 - Collections](09-collections/README.md)
+* [COLLECTION-1: Collections](collections/README.md)
 
-### 10 - Mutables
+### Mutables
 
-* [10.1 - Mutables (N/A)](10-mutables/README.md)
+* [MUTABLE-1: Mutables (N/A)](mutables/README.md)
 
-### 11 -  Tests
+### Tests
 
-* [11.1 - Tests](11-tests/README.md)
+* [TESTS-1: Tests](tests/README.md)
 
-### 12 - Concurrency
+### Concurrency
 
-* [12.1 - Concurrency](12-concurrency/README.md)
+* [CONCURRENCY-1: Concurrency](concurrency/README.md)
 
-### 13 - GUIs
+### GUIs
 
-* [13.1 - GUI](13-gui/README.md)
+* [GUI-1: GUI](gui/README.md)
 
-### 14 - Annotations
+### Annotations
 
-* [14.1 - Annotations (N/A)](14-annotations/README.md)
+* [ANNOTATIONS-1: Annotations (N/A)](annotations/README.md)
 
-### 15 - Utils
+### Utils
 
-* [15.1 - utils](15-util/README.md)
+* [UTILS-1: utils](util/README.md)
 
-### 16 -  File IO
+### File IO
 
-* [16.1 - fileios](16-fileio/README.md)
+* [FILEIO-1: fileios](fileio/README.md)
 
 ### Projects
 
-* [Vending Machine](projects/vending-machine/README.md)
-* [Clickstream](projects/clickstream/README.md)
+* [PROJECT-1: Vending Machine](projects/vending-machine/README.md)
+* [PROJECT-2: Clickstream](projects/clickstream/README.md)
