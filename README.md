@@ -30,6 +30,10 @@ Do `./assemble-labs.sh` to generate the lab bundle
 
 * [TYPES-1: Types](types/README.md)
 
+### Collections
+
+* [COLLECTION-1: Arrays](collections/array-1.md)
+
 ### Classes
 
 * [CLASS-1: Classes](classes/README.md)
@@ -45,10 +49,6 @@ Do `./assemble-labs.sh` to generate the lab bundle
 ### Traits
 
 * [TRAITS-1: Traits](traits/README.md)
-
-### Collections
-
-* [COLLECTION-1: Collections](collections/README.md)
 
 ### Mutables
 
