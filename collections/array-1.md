@@ -1,6 +1,12 @@
 <link rel='stylesheet' href='../assets/css/main.css'/>
 
-# Collections 1
+# Collections : Array
+
+## Arrays
+
+* Arrays are fixed size; can't resize them later
+* But we can change the content of array elements
+* Arrays can be multi-dimensional
 
 ## Start Scala REPL
 

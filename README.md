@@ -33,6 +33,11 @@ Do `./assemble-labs.sh` to generate the lab bundle
 ### Collections
 
 * [COLLECTION-1: Arrays](collections/array-1.md)
+* [COLLECTION-2: Array Buffers](collections/array-buffer-1.md)
+* [COLLECTION-3: Lists](collections/list-1.md)
+* [COLLECTION-4: Vectors](collections/vector-1.md)
+* [COLLECTION-5: Sets](collections/set-1.md)
+* [COLLECTION-6: Maps](collections/map-1.md)
 
 ### Classes
 
