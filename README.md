@@ -38,6 +38,8 @@ Do `./assemble-labs.sh` to generate the lab bundle
 * [COLLECTION-4: Vectors](collections/vector-1.md)
 * [COLLECTION-5: Sets](collections/set-1.md)
 * [COLLECTION-6: Maps](collections/map-1.md)
+* [COLLECTION-7: Benchmark collections access](collections/benchmark-1.md)
+* [COLLECTION-8: Wordcount](collections/word-count.md)
 
 ### Classes
 
